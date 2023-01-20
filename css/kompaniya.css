@@ -1,0 +1,396 @@
+@import url(thttps://fonts.googleapis.com/css2?family=Crimson+Pro:wght@200..900&display=swap);
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'questrial';
+}
+
+:root{
+    --header-fw: 500;
+    --header-fs: 13px;
+    --main-logo-w: 50px;
+    --main-logo-h: 50px;
+    --main-logo-text-w: 100px;
+    --main-logo-text-h: 20px;
+    --primary-color: #F9CE03;
+    --dark-primary-color: #F9B403; 
+}
+
+body{
+    font-family: questrial;
+}
+
+.simple-btn{
+    background-color: white;
+    width: 100px;
+    height: 45px;
+    border-radius: 10px;
+    border: #E1E1E1 solid 1px;
+    font-weight: var(--header-fw);
+    font-size: var(--header-fs);
+}
+
+.simple-btn a{
+    color: #000000;
+    text-decoration: none;
+}
+
+.simple-btn:hover{
+    text-decoration: underline;
+}
+
+.primary-btn{
+    background-color: var(--primary-color);
+    width: 140px;
+    height: 45px;
+    border-radius: 10px;
+    border: var(--primary-color) solid 1px;
+    font-weight: var(--header-fw);
+    font-size: var(--header-fs);
+}
+
+.primary-btn a{
+    color: #000000;
+    text-decoration: none;
+}
+
+.primary-btn:hover{
+    text-decoration: underline;
+}
+
+.header-left-desc a{
+    color: #000000;
+    text-decoration: none;
+}
+
+.header-left-desc a:hover{
+    color: #F9B403;
+}
+
+.company-img{
+    margin: 100px 0;
+}
+
+.comp-section-menus{
+    color: #515151;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+    text-decoration: none;
+}
+
+.comp-section-menus:hover{
+    text-decoration: underline;
+}
+
+.comp-section-menus span{
+    color: #000000;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+    margin: 0 5px;
+}
+
+.comp-menus{
+    color: #000000;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+    text-decoration: none;
+}
+
+.comp-menus:hover{
+    text-decoration: underline;
+}
+
+.header-contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+.page-name{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 26px;
+    color: #000000;
+    margin-top: 115px;
+}
+
+.logo-desc{
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: 0.265em;
+    margin-top: 6px;
+}
+
+.logo-desc a{
+    text-decoration: none;
+    color: #000000;
+}
+
+.page-name-comp{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 26px;
+    color: #000000;
+}
+
+.about-comp{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    color: #515151;
+}
+
+.col-names{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    color: #4A4A4A;
+}
+
+.footer{
+    height: 690px;
+    background-color: #C9CACC;
+}
+
+.footer a{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 35px;
+    display: flex;
+    color: #141414;
+    text-decoration: none;
+}
+
+.footer a:hover{
+    color: var(--dark-primary-color);
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.footer-nav{
+    color: #000000;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    margin-top: 20px;
+}
+
+.footer-social{
+    margin-right: 40px;
+}
+
+.footer-social:hover{
+    transform: scale(1.1);
+    color: var(--dark-primary-color);
+    cursor: pointer;
+}
+
+.footer-download{
+    margin-left: 20px;
+}
+
+.footer-download:hover{
+    transform: scale(1.1);
+    color: var(--dark-primary-color);
+    cursor: pointer;
+}
+
+.line{
+    border: 1px solid #E5E5E5;
+    margin-top: 50px;
+}
+
+.footer-end{
+    color: #686868;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.pt-sections-between{
+    padding-top: 100px;
+}
+
+@media screen and (max-width: 768px){
+    .header-left-desc{
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+    .header .logo-desc{
+        font-weight: 500;
+        font-size: 10px;
+        line-height: 12px;
+        letter-spacing: 0.01em;
+        margin-top: 3px;
+    }
+    
+    .main-logo{
+        width: 35px;
+        height: 35px;
+    }
+
+    .header .main-logo-text{
+        width: 68px;
+        height: 12px;
+    }
+
+    .simple-btn{
+        background-color: white;
+        width: 84px;
+        height: 39px;
+        border-radius: 10px;
+        border: #E1E1E1 solid 1px;
+        margin-bottom: 15px;
+    }
+
+    .primary-btn{
+        background-color: var(--primary-color);
+        width: 118px;
+        height: 39px;
+        border-radius: 10px;
+        border: var(--primary-color) solid 1px;
+        margin-bottom: 15px;
+    }
+
+    .page-name{
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 18px;
+        color: #000000;
+        margin-top: 115px;
+    }
+
+    .page-name-comp{
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 18px;
+        color: #000000;
+    }
+
+    .about-comp{
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 18px;
+        color: #515151;
+    }
+
+    .col-names{
+        font-weight: 500;
+        font-size: 11px;
+        line-height: 13px;
+        color: #4A4A4A;
+    }
+
+    .pt-sections-between{
+        padding-top: 50px;
+    }
+
+    .footer{
+        height: max-content;
+    }
+
+    .footer-nav{
+        color: #000000;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 22px;
+        margin-top: 20px;
+    }
+
+    .footer-download{
+        margin-left: 0;
+    }
+
+    .space-between{
+        margin-bottom: 15px;
+    }
+
+    .line{
+        border: 1px solid #E5E5E5;
+        margin-top: 40px;
+    }
+}
+
+@media screen and (max-width: 577px){
+    .header .header-contact{
+        display: none;
+    }
+
+    .main-logo{
+        width: 23px;
+        height: 23px;
+    }
+
+    .main-logo-text{
+        width: 43px;
+        height: 7px;
+    }
+
+    .simple-btn{
+        display: none;
+    }
+
+    .primary-btn{
+        display: none;
+    }
+
+    .page-name{
+        font-weight: 700;
+        font-size: 13px;
+        line-height: 16px;
+        color: #000000;
+        margin-top: 40px;
+    }
+
+    .page-name-comp{
+        font-weight: 700;
+        font-size: 13px;
+        line-height: 16px;
+        color: #000000;
+    }
+
+    .about-comp{
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16px;
+        color: #515151;
+    }
+
+
+    .col-names{
+        display: none;
+    }
+
+    .header .logo-desc{
+        display: none;
+    }
+
+    .footer-nav{
+        color: #000000;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 22px;
+        margin-top: 10px;
+    }
+
+    .footer-download{
+        margin-right: 5px;
+        margin-top: 8px;
+    }
+
+    .line{
+        border: 1px solid #E5E5E5;
+        margin-top: 0;
+    }
+
+    .space-between{
+        margin-bottom: 10px;
+    }
+}
